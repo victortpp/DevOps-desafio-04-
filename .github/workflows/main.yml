@@ -89,7 +89,7 @@ jobs:
     - name: Deploy da Nossa Aplicação Hello-Java
       uses: azure/aci-deploy@v1
       with:
-        resource-gourp: RG-APPS-CRESCER
+        resource-group: RG-APPS-CRESCER
         dns-name-label: lab-crescer-victor-pereira
         image: victortp06/javacrescer:latest
         cpu: 1
